@@ -17,7 +17,7 @@ pipeline {
             }
             post {
                 success {
-                    junit './test-results.xml'
+                    junit '.test-results.xml'
                 }
             }
         }
