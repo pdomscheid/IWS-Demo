@@ -11,10 +11,10 @@ pipeline {
         stage('Test') { 
             steps {
                 nodejs(nodeJSInstallationName: 'recent node') {
-                    sh 'npm test' 
-                    sh 'pwd'
-                    sh 'ls'
+                    sh 'npm test'
+
                 }
+                junit '*.xml'
             }
         }
     }

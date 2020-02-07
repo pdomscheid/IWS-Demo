@@ -11,8 +11,9 @@
     "fs": false
   },
   "dependencies": {
-    "superagent": "3.7.0",
-    "querystring": "0.2.0"
+    "mocha-jenkins-reporter": "^0.4.2",
+    "querystring": "0.2.0",
+    "superagent": "3.7.0"
   },
   "devDependencies": {
     "expect.js": "~0.3.1",
