@@ -13,6 +13,7 @@ pipeline {
                 nodejs(nodeJSInstallationName: 'recent node') {
                     sh 'npm test' 
                     sh 'pwd'
+                    sh 'ls'
                 }
             }
         }
