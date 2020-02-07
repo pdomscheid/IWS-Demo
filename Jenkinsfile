@@ -19,7 +19,7 @@ pipeline {
         stage('Deploy') {
                     steps {
                         nodejs(nodeJSInstallationName: 'recent node') {
-                            sh 'start'
+                            sh 'npm start'
                         }
                     }
                 }
