@@ -19,7 +19,7 @@ pipeline {
     }
     post {
                 success {
-                    junit '.test-results.xml'
+                    junit 'build/reports/**/*.xml'
                 }
             }
 }
