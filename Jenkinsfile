@@ -12,7 +12,7 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'recent node') {
                     sh 'npm test' 
-                    
+                    sh 'pwd'
                 }
             }
         }
