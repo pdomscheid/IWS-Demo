@@ -16,6 +16,14 @@ pipeline {
                 }
             }
         }
+        stage('Deploy') {
+                    steps {
+                        nodejs(nodeJSInstallationName: 'recent node') {
+                            sh 'start'
+                        }
+                    }
+                }
+
     }
     post {
                 success {
