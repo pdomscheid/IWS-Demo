@@ -13,7 +13,6 @@ pipeline {
                 nodejs(nodeJSInstallationName: 'recent node') {
                     sh 'npm test'
                 }
-                junit '*.xml'
             }
         }
     }
