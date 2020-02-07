@@ -12,6 +12,12 @@ pipeline {
             steps {
                 nodejs(nodeJSInstallationName: 'recent node') {
                     sh 'npm test' 
+                    
+                }
+            }
+            post {
+                success {
+                    junit './test-results.xml'
                 }
             }
         }
