@@ -15,11 +15,11 @@ pipeline {
                     
                 }
             }
-            post {
+        }
+        post {
                 success {
                     junit '.test-results.xml'
                 }
             }
-        }
     }
 }
