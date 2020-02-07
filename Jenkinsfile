@@ -8,13 +8,12 @@ pipeline {
                 }
             }
         }
-    }
-
-    stages {
-        steps {
+        stage('Test') { 
+            steps {
                 nodejs(nodeJSInstallationName: 'recent node') {
                     sh 'npm test' 
                 }
             }
+        }
     }
 }
