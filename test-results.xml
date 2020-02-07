@@ -1,3 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0000" tests="0" failures="0">
+<testsuites name="Mocha Tests" time="0.0070" tests="18" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-02-07T15:09:59" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="(package)" timestamp="2020-02-07T15:09:59" tests="0" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="PetApi" timestamp="2020-02-07T15:09:59" tests="0" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="addPet" timestamp="2020-02-07T15:09:59" tests="1" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0010" failures="0">
+    <testcase name="(package) PetApi addPet should call addPet successfully" time="0.0010" classname="should call addPet successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="deletePet" timestamp="2020-02-07T15:09:59" tests="1" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0010" failures="0">
+    <testcase name="(package) PetApi deletePet should call deletePet successfully" time="0.0010" classname="should call deletePet successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="getPetById" timestamp="2020-02-07T15:09:59" tests="1" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0000" failures="0">
+    <testcase name="(package) PetApi getPetById should call getPetById successfully" time="0.0000" classname="should call getPetById successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="getPets" timestamp="2020-02-07T15:09:59" tests="1" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0000" failures="0">
+    <testcase name="(package) PetApi getPets should call getPets successfully" time="0.0000" classname="should call getPets successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="updatePet" timestamp="2020-02-07T15:09:59" tests="1" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/api/PetApi.spec.js" time="0.0000" failures="0">
+    <testcase name="(package) PetApi updatePet should call updatePet successfully" time="0.0000" classname="should call updatePet successfully">
+    </testcase>
+  </testsuite>
+  <testsuite name="(package)" timestamp="2020-02-07T15:09:59" tests="0" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/model/Event.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Event" timestamp="2020-02-07T15:09:59" tests="5" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/model/Event.spec.js" time="0.0030" failures="0">
+    <testcase name="(package) Event should create an instance of Event" time="0.0020" classname="should create an instance of Event">
+    </testcase>
+    <testcase name="(package) Event should have the property id (base name: &quot;id&quot;)" time="0.0000" classname="should have the property id (base name: &quot;id&quot;)">
+    </testcase>
+    <testcase name="(package) Event should have the property _date (base name: &quot;date&quot;)" time="0.0000" classname="should have the property _date (base name: &quot;date&quot;)">
+    </testcase>
+    <testcase name="(package) Event should have the property name (base name: &quot;name&quot;)" time="0.0010" classname="should have the property name (base name: &quot;name&quot;)">
+    </testcase>
+    <testcase name="(package) Event should have the property description (base name: &quot;description&quot;)" time="0.0000" classname="should have the property description (base name: &quot;description&quot;)">
+    </testcase>
+  </testsuite>
+  <testsuite name="(package)" timestamp="2020-02-07T15:09:59" tests="0" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/model/Pet.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Pet" timestamp="2020-02-07T15:09:59" tests="8" file="/Users/patrickdomscheid/GitHub/pipeline-demo/test/model/Pet.spec.js" time="0.0020" failures="0">
+    <testcase name="(package) Pet should create an instance of Pet" time="0.0010" classname="should create an instance of Pet">
+    </testcase>
+    <testcase name="(package) Pet should have the property id (base name: &quot;id&quot;)" time="0.0000" classname="should have the property id (base name: &quot;id&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property name (base name: &quot;name&quot;)" time="0.0000" classname="should have the property name (base name: &quot;name&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property species (base name: &quot;species&quot;)" time="0.0000" classname="should have the property species (base name: &quot;species&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property breed (base name: &quot;breed&quot;)" time="0.0000" classname="should have the property breed (base name: &quot;breed&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property photoUrls (base name: &quot;photoUrls&quot;)" time="0.0000" classname="should have the property photoUrls (base name: &quot;photoUrls&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property history (base name: &quot;history&quot;)" time="0.0000" classname="should have the property history (base name: &quot;history&quot;)">
+    </testcase>
+    <testcase name="(package) Pet should have the property status (base name: &quot;status&quot;)" time="0.0010" classname="should have the property status (base name: &quot;status&quot;)">
+    </testcase>
+  </testsuite>
 </testsuites>
