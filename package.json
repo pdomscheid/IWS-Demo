@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "test-jenkins": "mocha --recursive --reporter mocha-junit-reporter"
+    "test-report": "mocha --recursive --reporter mocha-junit-reporter"
   },
   "browser": {
     "fs": false
