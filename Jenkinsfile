@@ -19,7 +19,8 @@ pipeline {
         stage('Deploy') {
                     steps {
                         nodejs(nodeJSInstallationName: 'recent node') {
-                            sh 'node src/index.js'
+                            sh 'echo deployed'
+                            sh 'tar czf results.tar.gz ./test-results.xml    '
                         }
                     }
                 }
@@ -28,6 +29,7 @@ pipeline {
     post {
                 success {
                     junit '*.xml'
+                    archiveArtifacts artifacts: './results.tar.gz', fingerprint: true
                 }
             }
 }
