@@ -29,7 +29,7 @@ pipeline {
     post {
                 success {
                     junit '*.xml'
-                    archiveArtifacts artifacts: './results.tar.gz', fingerprint: true
+                    archiveArtifacts artifacts: 'results.tar.gz', fingerprint: true
                 }
             }
 }
